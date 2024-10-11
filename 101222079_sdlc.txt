@@ -1,0 +1,1 @@
+DevOps is critical in the SDLC as it promotes collaboration between development and operations, automating workflows and ensuring faster delivery.

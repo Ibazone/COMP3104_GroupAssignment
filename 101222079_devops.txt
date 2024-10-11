@@ -1,0 +1,1 @@
+COMP3104 DevOps course teaches collaborative software development practices, CI/CD, and agile methodologies.
