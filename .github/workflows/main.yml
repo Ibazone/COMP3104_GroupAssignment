@@ -1,0 +1,15 @@
+name: CI Pipeline
+
+# This specifies when the workflow will run. In this case, it runs on every push to the repository.
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2  # This action checks out your code to the runner.
+    
+    - name: Run a sample job
+      run: echo "CI Pipeline running for COMP3104_Group71_Assignment"
